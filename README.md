@@ -6,14 +6,14 @@ The **Electricity Consumption Prediction** project aims to develop a predictive 
 
 ## Features
 
-- **Data Preprocessing**: Handling missing data, feature scaling, and other preprocessing steps.
-- **Feature Engineering**: Identifying key features that influence electricity consumption.
+- **Data Preprocessing**: Includes several steps such as data crawling, cleaning, filling missing values, and visualizing feature distributions.
+- **Feature Engineering**: Identifying key features that influence electricity consumption, such as temperature, holidays, day of the week, etc.
 - **Modeling**: Implementing various machine learning algorithms to predict future electricity consumption.
-- **Evaluation**: Assessing model performance using metrics such as MAE, RMSE, and R².
+- **Evaluation**: Assessing model performance using metrics such as MAE, MSE, RMSE, and MAPE.
 
 ## Datasets
 
-- **Training Data**: Historical electricity consumption data (`train.csv`), which includes features such as temperature, humidity, day of the week, and other relevant factors.
+- **Training Data**: Historical electricity consumption data (`train.csv`), which includes features , such as temperature, holidays, day of the week, etc.
 - **Testing Data**: A separate dataset (`test.csv`) used to evaluate the performance of the predictive model.
 
 ### Target Variable
@@ -26,3 +26,4 @@ To run this project, you need to install the dependencies listed in the `environ
 
 ```bash
 conda env create -f environment.yml
+
