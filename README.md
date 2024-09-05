@@ -8,7 +8,7 @@ The **Electricity Consumption Prediction** project aims to develop a predictive 
 
 - **Data Preprocessing**: Includes several steps such as data crawling, cleaning, filling missing values, and visualizing feature distributions.
 - **Feature Engineering**: Identifying key features that influence electricity consumption, such as temperature, holidays, day of the week, etc.
-- **Modeling**: Implementing various machine learning algorithms to predict future electricity consumption.
+- **Modeling**: Implementing various machine learning algorithms to predict future electricity consumption, includes: RandomForest, DecisionTree, LinearRegression, Prophet and LSTM.
 - **Evaluation**: Assessing model performance using metrics such as MAE, MSE, RMSE, and MAPE.
 
 ## Datasets
